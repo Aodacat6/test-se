@@ -1,4 +1,4 @@
-package com.mycom.test.Entity;
+package com.mycom.test.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,15 +8,15 @@ import java.util.List;
 
 /**
  * @author ：songdalin
- * @date ：Created in 2020-03-28 下午 12:09
+ * @date ：Created in 2020-03-28 下午 12:13
  * @description：
- * @modified By：
+ * @modified By：99
  * @version:
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Teacher {
+public class Student extends Teacher {
 
     private String name;
 
@@ -24,5 +24,5 @@ public class Teacher {
 
     private int age;
 
-    private List<Student> lists;
+    private List<Teacher> listOfTeachers;
 }
