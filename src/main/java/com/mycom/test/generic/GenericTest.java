@@ -37,7 +37,6 @@ public class GenericTest {
     /**
      * 测试泛型?, ?通配符放在list上，不能增加，只能修改删除
      * @param list1
-     * @param list2
      * @param <?>
      * @return
      */
